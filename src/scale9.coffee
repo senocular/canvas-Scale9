@@ -14,7 +14,7 @@ class Scale9
 	resize: (@width, @height) ->
 
 	scale: (scaleX, scaleY = scaleX) ->
-		@resize scaleX * @image.width, scaleY * @image.height
+		@resize Math.ceil(scaleX * @image.width), Math.ceil(scaleY * @image.height)
 
 	drawImageTo: (context, x, y) ->
 
@@ -62,7 +62,7 @@ class Scale9
 				# scale proportionally
 
 				ratio = leftW/rightW
-				rightW = @width/(ratio + 1)
+				rightW = Math.ceil @width/(ratio + 1)
 				leftW = @width - rightW
 
 		if centerH < 0
@@ -79,7 +79,7 @@ class Scale9
 				# scale proportionally
 
 				ratio = topH/bottomH
-				bottomH = @height/(ratio + 1)
+				bottomH = Math.ceil @height/(ratio + 1)
 				topH = @height - bottomH
 
 

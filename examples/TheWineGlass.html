@@ -42,7 +42,7 @@ class Example
 		@context.drawImage @img, 0, 0 
 
 		@context.globalAlpha = 1.0
-		@scaler.resize w, h
+		@scaler.resize Math.ceil(w), Math.ceil(h)
 		@scaler.drawImageTo @context, 0, 0 
 
 
