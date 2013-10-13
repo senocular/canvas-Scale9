@@ -10,7 +10,11 @@ myScale9.resize(newWidth, newHeight)
 myscale9.drawImageTo(myCanvasContext, 0, 0)
 ```
 
-[Live Example](http://senocular.github.com/CanvasScale9/examples/TheWineGlass.html)
+**Example**
+[The Wine Glass Example](http://senocular.github.com/CanvasScale9/examples/TheWineGlass.html)
+
+Note: The sample HTML file may not function when run locally due to browser-based security restrictions preventing the loading of the Scale9 coffeescript file. You may need to run the file from a server (http) location.
+
 
 Constructor
 -----------
@@ -24,6 +28,7 @@ Creates a new Scale9 instance.
 * `y`: the top edge of the scale 9 grid rectangle 
 * `width`: the width of the scale 9 grid rectangle 
 * `height`: the height of the scale 9 grid rectangle 
+
 
 Members
 -------
