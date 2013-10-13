@@ -13,7 +13,9 @@ myscale9.drawImageTo(myCanvasContext, 0, 0)
 **Example**
 [The Wine Glass Example](http://senocular.github.com/CanvasScale9/examples/TheWineGlass.html)
 
-Note: The sample HTML file may not function when run locally due to browser-based security restrictions preventing the loading of the Scale9 coffeescript file. You may need to run the file from a server (http) location.
+Note: This code is written in CoffeeScript, and compiled dynamically using the CoffeeScript libary. I didn't include a JavaScript version in the repo but can by request.  In the meantime you can also perform a quick manual conversion via [coffeescript.org](http://coffeescript.org/) (or your own installed version of CoffeeScript).
+
+Note: The sample HTML file may not function when run locally due to browser-based security restrictions preventing the loading of the Scale9 CoffeeScript file. You may need to run the file from a server (http) location.
 
 
 Constructor
