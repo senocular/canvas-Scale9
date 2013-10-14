@@ -1,4 +1,4 @@
-CanvasScale9
+canvas-Scale9
 ============
 
 Scale 9 (9-slice) scaling transform for HTML 5 Canvas images.
@@ -11,7 +11,7 @@ myscale9.drawImageTo(myCanvasContext, 0, 0)
 ```
 
 **Example**
-[The Wine Glass Example](http://senocular.github.com/CanvasScale9/examples/TheWineGlass.html)
+[The Wine Glass Example](http://senocular.github.com/canvas-Scale9/examples/TheWineGlass.html)
 
 Note: This code is written in CoffeeScript, and compiled dynamically using the CoffeeScript libary. I didn't include a JavaScript version in the repo but can by request.  In the meantime you can also perform a quick manual conversion via [coffeescript.org](http://coffeescript.org/) (or your own installed version of CoffeeScript).
 
